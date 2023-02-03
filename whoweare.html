@@ -1,0 +1,162 @@
+
+        <!DOCTYPE html>
+        <html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <title>Waterford F.C.</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+    <!-- All info (parapgraphs, images etc.) has been obtained from sources such as Wikipedia and Google Images for the purpose of the assignment. -->
+    <!-- References:
+         Lab 01, Week 10 Tutors - Car form HTML-->
+   <body>
+<!-- Content -->
+
+<div class="ui grid container">
+  
+  <div class="ui centered row">
+    <div class="six wide column">
+      <img class="ui small image" src="images/wufc.png" alt="WUFC Logo">
+    </div>
+    <div class="six wide column">
+      <h1 class="title">WATERFORD F.C.</h1>
+    </div>
+    
+  </div>
+
+    <nav class="ui four item inverted pointing menu">
+        <a class="item" href = "index.html">HOME</a>
+        <a class="item" href = "about.html">ABOUT THE CLUB</a>
+        <a class="active item" href = "whoweare.html">WHO WE ARE</a>
+        <a class="item" href = "joinus.html">JOIN US</a>
+    </nav>
+
+    <div class="row">
+    <div class="ui message">
+  <i class="close icon"></i>
+  <div class="header">
+    Hey, YOU!
+  </div>
+  <p>Don't forget to submit an application to us on the next page if you want to join us!
+        Click the X button to get rid of me if you wish</p>
+</div>   
+        </div>
+    <main class="ui centered stackable equal width row segment">
+        
+        <!-- Cards -->
+           
+
+<div class="ui raised link card">
+  <div class="image">
+    <img src="images/wufc.png" alt="WUFC Logo">
+  </div>
+
+  <div class="content">
+  <div class="header">John Murphy</div>
+<div class="meta">
+  <div class="date">Sporting Director</div>
+</div>
+
+<div class="description">Sporting director for our club</div>
+  </div>
+
+  <span class="extra content">
+    <i class="history icon"></i>8 League Titles with Bohemians
+
+  </span>
+
+</div>   
+<div class="ui raised link card">
+  <div class="image">
+    <img src="images/wufc.png" alt="WUFC Logo">
+  </div>
+
+  <div class="content">
+  <div class="header">Joe Power</div>
+<div class="meta">
+  <div class="date">Club Coach</div>
+</div>
+
+<div class="description">Club Coach for the club</div>
+  </div>
+
+  <span class="extra content">
+    <i class="history icon"></i>Played for Tottenham Hotspur
+
+  </span>
+
+</div>
+<div class="ui raised link card">
+  <div class="image">
+    <img src="images/wufc.png" alt="WUFC Logo">
+  </div>
+
+  <div class="content">
+  <div class="header">Kieran Delaney</div>
+<div class="meta">
+  <div class="date">Nutrition Coach</div>
+</div>
+
+<div class="description">Nutrition coach for the club</div>
+  </div>
+
+  <span class="extra content">
+    <i class="history icon"></i>Played for Shamrock Rovers during his youth
+
+  </span>
+
+</div>
+<div class="ui raised link card">
+  <div class="image">
+    <img src="images/wufc.png" alt="WUFC Logo">
+  </div>
+
+  <div class="content">
+  <div class="header">Alex Green</div>
+<div class="meta">
+  <div class="date">Financial Officer</div>
+</div>
+
+<div class="description">Manages the finance side of things</div>
+  </div>
+
+  <span class="extra content">
+    <i class="history icon"></i>Worked for iFAC Accountants
+
+  </span>
+
+</div>
+
+       
+ </main>
+
+
+
+
+
+
+
+
+  </div>
+   
+ <!-- End of content -->
+   
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+crossorigin="anonymous">
+</script>
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+       <script>
+           $('.message .close')
+  .on('click', function() {
+    $(this)
+      .closest('.message')
+      .transition('fade')
+    ;
+  })
+;
+       </script>
+</body>
+</html>

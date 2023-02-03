@@ -1,0 +1,79 @@
+body {
+    background-color: #161ea7;
+    color: black;
+  }
+
+  .ui.container {
+      margin: 5em;
+  }
+
+ 
+
+  .ui.pointing.menu .item {
+   color: rgb(253, 253, 98) !important;
+  }
+
+
+.ui.pointing.menu .item:hover {
+    background-color:rgb(253, 253, 98) !important;
+    color: black !important;
+}
+
+  
+  .ui.pointing.menu .active.item {
+    background-color:rgb(253, 253, 98) !important;
+    color: black !important;
+
+  }
+
+
+  .ui.pointing.menu .active.item:hover {
+    background-color:rgb(253, 253, 98) !important;
+    color: black !important;
+    font-weight: bold;
+
+  }
+
+  p {
+    font-size: 16px;
+      
+  }
+
+.title  {
+  color: white;
+  margin-top:  45px !important;
+    font-weight: 1000;
+
+
+  }
+
+  img {
+    margin: 0;
+  }
+
+.exception{
+    margin-top: 2em !important;
+}
+
+.ui.card .date {
+ color:blueviolet;
+}
+
+.ui.message {
+    background-color:cadetblue;
+    color:white;
+    padding: 10px !important ;
+    border-bottom-color: aliceblue !important;
+    
+}
+
+.ui.black.button {
+  color: yellow;
+}
+
+.ui.piled.centered.segment.joinussegment {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+

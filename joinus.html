@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <title>Waterford F.C.</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+    
+    <!-- All info (parapgraphs, images etc.) has been obtained from sources such as Wikipedia and Google Images for the purpose of the assignment. -->
+    <!-- References:
+         Lab 01, Week 10 Tutors - Car form HTML-->
+   <body>
+<!-- Content -->
+
+
+<div class="ui grid container">
+
+    <div class="ui centered row">
+        <div class="six wide column">
+          <img class="ui small image" src="images/wufc.png" alt="waterford fc crest">
+        </div>
+        <div class="six wide column">
+          <h1 class="title">WATERFORD F.C.</h1>
+        </div>
+        
+      </div>
+    
+        <nav class="ui four item center aligned inverted pointing menu">
+            <a class="item" href = "index.html">HOME</a>
+            <a class="item" href = "about.html">ABOUT THE CLUB</a>
+            <a class="item" href = "whoweare.html">WHO WE ARE</a>
+            <a class="active item" href = "joinus.html">JOIN US</a>
+        </nav>
+
+     
+
+        <main class="ui piled centered segment joinussegment">
+
+            <div class="ui eight wide column">
+                <form action="process.html" method="get" id="booking" class="ui centered form">
+   
+                    <div class = "inline field">
+                     <label for="contactname" class="three wide field">Name:</label>
+                     <input type="text" name="contactname" id="contactname" class="eight wide field" autofocus required pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*"
+                     title="Name must include capital starting letter for forename and in the format e.g Thomas Burke">
+                     </div>
+                                                
+                     <div class = "inline field">
+                     <label for="email-address"   class="three wide field">Email address:</label>
+                     <input type="email" title="e.g user@gmail.com" name="email-address" id="email-address" class="eight wide field" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+                
+                    <div class="grouped fields">
+                    <label>Sex:</label> 
+                    <div class = "field">
+                      <div class="ui radio checkbox">
+                        <input type="radio" name="option" id="male">
+                        <label for="male">Male</label>
+                      </div>
+                     </div>
+                
+                     <div class = "field">
+                      <div class="ui radio checkbox">
+                      <input type="radio" name="option" id="female">
+                      <label for="female">Female</label>
+                      </div>
+                     </div>
+
+                     <div class = "field">
+                        <div class="ui radio checkbox">
+                        <input type="radio" name="option" id="other">
+                        <label for="other">Prefer not to say</label>
+                        </div>
+                       </div>
+                    </div>
+                
+                    <div class = "field">
+                      <label for="age" class="three wide field">Age</label>
+                      <input type="number" title="e.g. 25, 19, 20" name="ageperson" id="age" class="eight wide field" min="6" max="45">
+                      </div>
+                
+                      <div class = "field">
+                        <label for="dob" title="Please type correctly" class="three wide field">Date of Birth:</label>
+                        <input type="date" name="booking" required min="2016-12-05" id="dob" class="eight wide field">
+                        </div>
+
+                        <div class="two fields">
+
+                            <div class="eight wide field">
+                                <label>Address:</label>
+                                <input type="text" name="address" id="address" placeholder="Street address etc.">
+                            
+                            </div>
+
+                            <div class="four wide field">
+                                <label>Postcode:</label>
+                                <input type="text" name="postcode" id="postcode" placeholder="e.g X91CF21">
+                            
+                            </div>
+
+
+                        </div>
+
+                        <div class="ui black submit button">
+                            <input style="clear:left" type="submit" class="ui black button" value="Send Us the info!">
+                        </div>
+                </form>
+            </div>
+
+           
+        </main>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- End of content -->
+   
+ <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+ integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+ crossorigin="anonymous">
+ </script>
+ <script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+ </body>
+ </html>
